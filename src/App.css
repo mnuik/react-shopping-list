@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+}
+
+.app {
+  background: #209cee;
+  padding: 3vw;
+  height: 100vh;
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) 3fr;
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  max-width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.todo-items {
+  overflow: scroll;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.button-ok {
+  color: darkgreen;
+  font-weight: 600;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 0.3em;
+  min-width: 3em;
+}
+
+.button-x {
+  font-weight: 700;
+  color: darkred;
+  margin: 0.4em;
+  padding: 0.3em;
+  min-width: 2em;
+}
+
+.form {
+  display: flex;
+  align-items: stretch;
+  margin: 0.8em 0.2em;
+  max-height: 1.8em;
+  border: 2px black;
+}
+
+.input {
+  font-size: 0.8em;
+  padding-left: 10px;
+  flex-grow: 8;
+}
+
+.checkmark {
+  font-size: 2.2em;
+  border: none;
+  color: rgb(150, 138, 3);
+  flex-grow: 1;
+  padding: 0.15em;
+  align-self: center;
+  justify-self: right;
+}
