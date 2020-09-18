@@ -68,7 +68,7 @@ function App() {
       isCompleted: false
     },
     {
-      text: "Juustu",
+      text: "Juusto",
       isCompleted: false
     },
     {
