@@ -1,3 +1,7 @@
- A simple shopping list I made with React. 
+ A simple shopping list I made with React. Try it here: https://ostoslista-shopping-list.herokuapp.com/
  
- The app content is currently only in Finnish since I'm planning to use it with my partner – and not using our mutual everyday grocery-jargon seems counter-intuitive to the app's purpose.
+ 
+ 
+ Since I'm using this version with my partner, the copy is currently (only) in Finnish & pre-filled with popular grocery items for our household (free sneak peak!).
+ 
+ 
