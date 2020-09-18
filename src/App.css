@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 10px;
-  margin-bottom: 6px;
+  margin: 5px;
   border-radius: 3px;
 }
 
@@ -11,18 +10,29 @@
   background: rgb(255, 122, 17);
   background: linear-gradient(180deg, rgba(255, 122, 17, 1) 0%, rgba(255, 122, 17, 1) 20%, rgba(200, 184, 62, 1) 42%, rgba(156, 236, 252, 1) 79%, rgba(214, 238, 242, 1) 100%);
   padding: 3vw;
-  min-width: 350px;
-  max-width: 350px;
+  width: 350px;
 }
 
 .header {
-  font-size: 2em;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 3vw;
+  margin-bottom: 1.2em;
+  width: 350px;
+  min-height: 3em;
+  max-height: 3.8em;
+}
+
+.header-text {
+  font-size: 5vw;
   font-family: Ordinary, Tahoma, Verdana, Geneva, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   min-height: 2em;
   max-height: 3.8em;
-  width: 100%;
   max-width: 300px;
   padding: 5px;
 }
