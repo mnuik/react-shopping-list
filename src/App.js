@@ -36,7 +36,7 @@ function TodoForm({ addTodo }) {
         className="input"
         value={value}
         onChange={e => setValue(e.target.value)}
-        placeholder="Lisää tuote"
+        placeholder="Uusi tuote"
       />
       <button
         type="button"
