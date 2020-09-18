@@ -107,7 +107,7 @@ function App() {
   return (
     <div className="container">
     <header><div className="header">
-      <h2>BRYYT</h2> <h3> no näitä ny ainaski </h3> {/* <i class="far fa-heart"></i> */}
+      <h2>OSTOSLISTA</h2> <i class="far fa-heart"></i>
     </div></header>
       <div className="app">
         <div className="todo-list">

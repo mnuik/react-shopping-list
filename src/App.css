@@ -15,7 +15,10 @@
 }
 
 .header {
+  font-size: x-large;
   font-family: Ordinary, Tahoma, Verdana, Geneva, sans-serif;
+  min-width: 80%;
+  max-width: 100%;
 }
 
 .todo {
