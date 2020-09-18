@@ -39,7 +39,7 @@ function TodoForm({ addTodo }) {
         placeholder="Uusi tuote"
       />
       <button
-        type="button"
+        type="submit"
         className="button-add"
       >
         Lisää
@@ -105,7 +105,7 @@ function App() {
   return (
     <div className="container">
       <header><div className="header">
-        <h1>OSTOSLISTA</h1> <i class="far fa-heart"></i>
+        <h1>OSTOSLISTA</h1>
       </div></header>
       <div className="app">
         <div className="todo-list">
