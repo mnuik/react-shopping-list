@@ -11,10 +11,9 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
         {todo.text}
       </div>
       <div>
-        <button className="button-ok" onClick={() => completeTodo(index)}> OK </button>
-        <button className="button-x" onClick={() => removeTodo(index)}>X</button>
+        <button type="button" className="button-check" onClick={() => completeTodo(index)}> <i class="fa fa-check-square"></i> </button>
+        <button type="button" className="button-delete" onClick={() => removeTodo(index)}> <i class="fa fa-trash"></i> </button>
       </div>
-
     </div>
 
   );
@@ -41,10 +40,9 @@ function TodoForm({ addTodo }) {
       />
       <button
         type="button"
-        className="checkmark"
-        onClick={handleSubmit}
+        className="button-add"
       >
-        <i class="fa fa-check-square"></i>
+        Lisää
       </button>
     </form>
 
@@ -106,9 +104,9 @@ function App() {
 
   return (
     <div className="container">
-    <header><div className="header">
-      <h2>OSTOSLISTA</h2> <i class="far fa-heart"></i>
-    </div></header>
+      <header><div className="header">
+        <h1>OSTOSLISTA</h1> <i class="far fa-heart"></i>
+      </div></header>
       <div className="app">
         <div className="todo-list">
           {todos.map((todo, index) => (

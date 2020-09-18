@@ -8,22 +8,29 @@
 }
 
 .app {
-  background: #209cee;
+  /* background: #209cee; */
+  background: rgb(255, 122, 17);
+  background: linear-gradient(180deg, rgba(255,122,17,1) 0%, rgba(255,122,17,1) 20%, rgba(200,184,62,1) 42%, rgba(156,236,252,1) 79%, rgba(214,238,242,1) 100%);
   padding: 3vw;
   min-width: 350px;
   max-width: 350px;
 }
 
 .header {
-  font-size: x-large;
+  font-size: 2em;
   font-family: Ordinary, Tahoma, Verdana, Geneva, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
   min-width: 80%;
   max-width: 100%;
+  min-height: 2em;
+  max-height: 3.8em;
+  padding: 5px;
 }
 
 .todo {
   display: grid;
-  grid-template-columns: minmax(0, 7fr) 3fr;
+  grid-template-columns: minmax(0, 9fr) 3fr;
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 3px 10px;
@@ -36,7 +43,7 @@
 }
 
 .todo-list {
-  background: #e8e8e8;
+  background: #d5d5d5;
   border-radius: 4px;
   font-size: 1.1em;
   font-family: Tahoma, Verdana, Geneva, sans-serif;
@@ -51,27 +58,30 @@
   padding: 5px;
 }
 
-.button-ok {
-  color: darkgreen;
-  font-weight: 600;
-  margin: 5px;
-  margin-left: 10px;
-  padding: 0.3em;
-  min-width: 3em;
+.button-check {
+  font-size: 1.6em;
+  border: none;
+  color: #027924;
+  background-color: #ffffff;
+  margin: 0.4em, 0.1em;
+  padding: 0.15em;
+ 
 }
 
-.button-x {
+.button-delete {
+  font-size: 1.4em;
   font-weight: 700;
-  color: darkred;
-  margin: 0.4em;
-  padding: 0.3em;
+  border: none;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0.4em, 0.1em;
   min-width: 2em;
 }
 
 .form {
   display: flex;
-  align-items: stretch;
-  margin: 0.8em 0.2em;
+  align-items: center;
+  margin: 1em 0.2em;
   max-height: 1.8em;
   border: 2px black;
 }
@@ -80,14 +90,15 @@
   font-size: 0.8em;
   padding-left: 10px;
   flex-grow: 8;
+  min-height: 25px;
 }
 
-.checkmark {
-  font-size: 2.2em;
-  border: none;
-  color: rgb(150, 138, 3);
-  flex-grow: 1;
-  padding: 0.15em;
-  align-self: center;
-  justify-self: right;
+.button-add {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 0.35em;
+  min-height: 25px;
+  ;
 }
