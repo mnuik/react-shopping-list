@@ -10,7 +10,7 @@
 .app {
   /* background: #209cee; */
   background: rgb(255, 122, 17);
-  background: linear-gradient(180deg, rgba(255,122,17,1) 0%, rgba(255,122,17,1) 20%, rgba(200,184,62,1) 42%, rgba(156,236,252,1) 79%, rgba(214,238,242,1) 100%);
+  background: linear-gradient(180deg, rgba(255,122,1,1) 0%, rgba(255,122,16,1) 20%, rgba(200,184,62,1) 42%, rgba(156,236,252,1) 79%, rgba(214,238,242,1) 100%);
   padding: 3vw;
   min-width: 350px;
   max-width: 350px;
