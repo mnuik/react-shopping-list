@@ -8,9 +8,8 @@
 }
 
 .app {
-  /* background: #209cee; */
   background: rgb(255, 122, 17);
-  background: linear-gradient(180deg, rgba(255,122,1,1) 0%, rgba(255,122,16,1) 20%, rgba(200,184,62,1) 42%, rgba(156,236,252,1) 79%, rgba(214,238,242,1) 100%);
+  background: linear-gradient(180deg, rgba(255, 122, 17, 1) 0%, rgba(255, 122, 17, 1) 20%, rgba(200, 184, 62, 1) 42%, rgba(156, 236, 252, 1) 79%, rgba(214, 238, 242, 1) 100%);
   padding: 3vw;
   min-width: 350px;
   max-width: 350px;
@@ -21,18 +20,28 @@
   font-family: Ordinary, Tahoma, Verdana, Geneva, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  min-width: 80%;
-  max-width: 100%;
   min-height: 2em;
   max-height: 3.8em;
+  width: 100%;
+  max-width: 300px;
   padding: 5px;
+}
+
+.todo-list {
+  background: #ffffff;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  padding: 14px 14px;
+  min-width: 300px;
+  max-width: 100%;
 }
 
 .todo {
   display: grid;
   grid-template-columns: minmax(0, 9fr) 3fr;
-  background: #fff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
   padding: 3px 10px;
   margin-bottom: 6px;
   border-radius: 3px;
@@ -40,16 +49,6 @@
   overflow: scroll;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-.todo-list {
-  background: #d5d5d5;
-  border-radius: 4px;
-  font-size: 1.1em;
-  font-family: Tahoma, Verdana, Geneva, sans-serif;
-  padding: 10px;
-  min-width: 300px;
-  max-width: 100%;
 }
 
 .todo-items {
@@ -65,7 +64,6 @@
   background-color: #ffffff;
   margin: 0.4em, 0.1em;
   padding: 0.15em;
- 
 }
 
 .button-delete {
@@ -81,7 +79,7 @@
 .form {
   display: flex;
   align-items: center;
-  margin: 1em 0.2em;
+  margin: 1.4em 0.1em 0.6em 0.1em;
   max-height: 1.8em;
   border: 2px black;
 }
@@ -96,7 +94,8 @@
 .button-add {
   font-size: 14px;
   font-weight: 600;
-  margin: 5px;
+  flex-grow: 1;
+  margin: 0;
   margin-left: 10px;
   padding: 0.35em;
   min-height: 25px;
